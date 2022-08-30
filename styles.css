@@ -1,0 +1,71 @@
+header {
+    background-color: white;
+    color: #7d98a1;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart {
+    text-align: center;
+    background-color: lightgray;
+    height: 30px;
+}
+.cart-btn {
+    background-color: red;
+    width: 300px;
+    height: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.logo-pic {
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -310px;
+    margin-top: 15px;
+}
+
+.pizza-cover-pic {
+    height: 160px;
+  width: 160px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 25px;
+}
+.pizza-card {
+    background-color: red;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.memo {
+    text-align: center;
+    background-color: lightgray;
+    height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+    word-spacing: 2pt;
+}
+
+
+
+footer {
+    background-color: red;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+} 
